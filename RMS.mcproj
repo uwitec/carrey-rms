@@ -1,0 +1,144 @@
+[Version]=3.0
+[SaveDirectory]=E:\My Documents\Visual Studio 2005\Projects\VB\RMS\Encoded
+[RuntimeName]=RMS.dll
+
+[Encrypt All Method]=1
+[Runtime Libaray Combination]=0
+[Encrypt User Strings]=0
+[Encrypt Blob Heap]=1
+[Encrypt Managed Resources]=1
+[Encrypt New Methods]=1
+[Anti ILdasm]=1
+[Support Windows64 Bit]=0
+
+[AssemblyName]=Auto,No,E:\My Documents\Visual Studio 2005\Projects\VB\RMS\Debug\TouchScreen.exe
+[AssemblyName]=Auto,No,E:\My Documents\Visual Studio 2005\Projects\VB\RMS\Debug\AppExt.dll
+[AssemblyName]=Auto,No,E:\My Documents\Visual Studio 2005\Projects\VB\RMS\Debug\CRmsSvr.dll
+[AssemblyName]=Auto,No,E:\My Documents\Visual Studio 2005\Projects\VB\RMS\Debug\DecisionApp.exe
+[AssemblyName]=Auto,No,E:\My Documents\Visual Studio 2005\Projects\VB\RMS\Debug\DeskApp.exe
+[AssemblyName]=Auto,No,E:\My Documents\Visual Studio 2005\Projects\VB\RMS\Debug\InitApp.exe
+[AssemblyName]=Auto,No,E:\My Documents\Visual Studio 2005\Projects\VB\RMS\Debug\Kitchen.exe
+[AssemblyName]=Auto,No,E:\My Documents\Visual Studio 2005\Projects\VB\RMS\Debug\RMSServer.exe
+[AssemblyName]=Auto,No,E:\My Documents\Visual Studio 2005\Projects\VB\RMS\Debug\StorageApp.exe
+[AssemblyName]=Auto,No,E:\My Documents\Visual Studio 2005\Projects\VB\RMS\Debug\SysAdmin.exe
+
+--------------------------------------------------
+[StrongName]=
+[SNPassword]=
+[StrongNameAll]=0
+[Web_Optimize]=0
+[Web_UnloadRuntime]=0
+[Web_SaveDirectory]=
+[Web_SaveDefault]=0
+[License_Enabled]=0
+[License_Type]=1
+[License_Days]=
+[License_RunCounts]=
+[License_DateStart]=2008-07-19
+[License_DateEnd]=2008-07-19
+[License_TrialAlert]=0
+[License_TrialMessage]=您的试用已经到期,请购买正式版!
+
+--------------------------------------------------
+[MaxtoCodeInjectClassName]=RMS_Runner
+[RuntimeMajorVersion]=2
+[RuntimeMinorVersion]=0
+[RuntimeBuild]=0
+[RuntimeSubBuild]=0
+[RuntimeComments]=
+[RuntimeCompanyName]=
+[RuntimeFileDescription]=
+[RuntimeLegalCopyRight]=
+[RuntimeProductName]=
+
+--------------------------------------------------
+[ConfusionOptions]=E:\My Documents\Visual Studio 2005\Projects\VB\RMS\Debug\TouchScreen.exe
+{
+	[ClassConfusion]=1
+	[ClassConfusionType]=1
+	[MetaDataConfusion]=0
+	[CodeConfusion]=1
+	[StrongNames]=
+}
+
+[ConfusionOptions]=E:\My Documents\Visual Studio 2005\Projects\VB\RMS\Debug\AppExt.dll
+{
+	[ClassConfusion]=1
+	[ClassConfusionType]=1
+	[MetaDataConfusion]=0
+	[CodeConfusion]=1
+	[StrongNames]=
+}
+
+[ConfusionOptions]=E:\My Documents\Visual Studio 2005\Projects\VB\RMS\Debug\CRmsSvr.dll
+{
+	[ClassConfusion]=1
+	[ClassConfusionType]=1
+	[MetaDataConfusion]=0
+	[CodeConfusion]=1
+	[StrongNames]=
+}
+
+[ConfusionOptions]=E:\My Documents\Visual Studio 2005\Projects\VB\RMS\Debug\DecisionApp.exe
+{
+	[ClassConfusion]=1
+	[ClassConfusionType]=1
+	[MetaDataConfusion]=0
+	[CodeConfusion]=1
+	[StrongNames]=
+}
+
+[ConfusionOptions]=E:\My Documents\Visual Studio 2005\Projects\VB\RMS\Debug\DeskApp.exe
+{
+	[ClassConfusion]=1
+	[ClassConfusionType]=1
+	[MetaDataConfusion]=0
+	[CodeConfusion]=1
+	[StrongNames]=
+}
+
+[ConfusionOptions]=E:\My Documents\Visual Studio 2005\Projects\VB\RMS\Debug\InitApp.exe
+{
+	[ClassConfusion]=1
+	[ClassConfusionType]=1
+	[MetaDataConfusion]=0
+	[CodeConfusion]=1
+	[StrongNames]=
+}
+
+[ConfusionOptions]=E:\My Documents\Visual Studio 2005\Projects\VB\RMS\Debug\Kitchen.exe
+{
+	[ClassConfusion]=1
+	[ClassConfusionType]=1
+	[MetaDataConfusion]=0
+	[CodeConfusion]=1
+	[StrongNames]=
+}
+
+[ConfusionOptions]=E:\My Documents\Visual Studio 2005\Projects\VB\RMS\Debug\RMSServer.exe
+{
+	[ClassConfusion]=1
+	[ClassConfusionType]=1
+	[MetaDataConfusion]=0
+	[CodeConfusion]=1
+	[StrongNames]=
+}
+
+[ConfusionOptions]=E:\My Documents\Visual Studio 2005\Projects\VB\RMS\Debug\StorageApp.exe
+{
+	[ClassConfusion]=1
+	[ClassConfusionType]=1
+	[MetaDataConfusion]=0
+	[CodeConfusion]=1
+	[StrongNames]=
+}
+
+[ConfusionOptions]=E:\My Documents\Visual Studio 2005\Projects\VB\RMS\Debug\SysAdmin.exe
+{
+	[ClassConfusion]=1
+	[ClassConfusionType]=1
+	[MetaDataConfusion]=0
+	[CodeConfusion]=1
+	[StrongNames]=
+}
+
