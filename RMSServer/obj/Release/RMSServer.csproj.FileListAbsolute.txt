@@ -1,0 +1,10 @@
+D:\Project\Caesar_System\RMS\trunk\RMSCS\Release\RMSServer.exe
+D:\Project\Caesar_System\RMS\trunk\RMSCS\Release\RMSServer.xml
+D:\Project\Caesar_System\RMS\trunk\RMSCS\RMSServer\obj\Release\RMSServer.exe.licenses
+D:\Project\Caesar_System\RMS\trunk\RMSCS\RMSServer\obj\Release\RMSServer.exe
+D:\Project\Caesar_System\RMS\trunk\RMSCS\RMSServer\obj\Release\RMSServer.frmMain.resources
+D:\Project\Caesar_System\RMS\trunk\RMSCS\Release\RMSServer.exe.config
+D:\Project\Caesar_System\RMS\trunk\Bin\RMSServer.exe.config
+D:\Project\Caesar_System\RMS\trunk\Bin\RMSServer.exe
+D:\Project\Caesar_System\RMS\trunk\Bin\RMSServer.xml
+D:\Project\Caesar_System\RMS\trunk\RMSCS\RMSServer\obj\Release\RMSServer.csproj.GenerateResource.Cache
