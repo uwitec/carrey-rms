@@ -1,0 +1,12 @@
+D:\Project\Caesar_System\RMS\trunk\RMSCS\Release\Kitchen.exe
+D:\Project\Caesar_System\RMS\trunk\RMSCS\Release\Kitchen.xml
+D:\Project\Caesar_System\RMS\trunk\RMSCS\Kitchen\obj\Release\Kitchen.Form1.resources
+D:\Project\Caesar_System\RMS\trunk\RMSCS\Kitchen\obj\Release\Kitchen.frmEditPsw.resources
+D:\Project\Caesar_System\RMS\trunk\RMSCS\Kitchen\obj\Release\Kitchen.InputMode.resources
+D:\Project\Caesar_System\RMS\trunk\RMSCS\Kitchen\obj\Release\Kitchen.exe
+D:\Project\Caesar_System\RMS\trunk\RMSCS\Kitchen\obj\Release\Kitchen.csproj.ResolveComReference.cache
+D:\Project\Caesar_System\RMS\trunk\RMSCS\Release\Kitchen.exe.config
+D:\Project\Caesar_System\RMS\trunk\Bin\Kitchen.exe.config
+D:\Project\Caesar_System\RMS\trunk\Bin\Kitchen.exe
+D:\Project\Caesar_System\RMS\trunk\Bin\Kitchen.xml
+D:\Project\Caesar_System\RMS\trunk\RMSCS\Kitchen\obj\Release\Kitchen.csproj.GenerateResource.Cache

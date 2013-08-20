@@ -1,0 +1,17 @@
+D:\workspace\餐厅管家\RMSC#\Kitchen\CS\obj\Debug\ResolveAssemblyReference.cache
+D:\workspace\餐厅管家\RMSC#\Kitchen\CS\obj\Debug\Kitchen.Form1.resources
+D:\workspace\餐厅管家\RMSC#\Kitchen\CS\obj\Debug\Kitchen.frmEditPsw.resources
+D:\workspace\餐厅管家\RMSC#\Kitchen\CS\obj\Debug\Kitchen.InputMode.resources
+D:\workspace\餐厅管家\RMSC#\Kitchen\CS\obj\Debug\Kitchen.csproj.GenerateResource.Cache
+D:\Project\Caesar_System\RMS\trunk\RMSCS\Debug\Kitchen.exe
+D:\Project\Caesar_System\RMS\trunk\RMSCS\Debug\Kitchen.pdb
+D:\Project\Caesar_System\RMS\trunk\RMSCS\Debug\Kitchen.xml
+D:\Project\Caesar_System\RMS\trunk\RMSCS\Kitchen\obj\Debug\ResolveAssemblyReference.cache
+D:\Project\Caesar_System\RMS\trunk\RMSCS\Kitchen\obj\Debug\Kitchen.Form1.resources
+D:\Project\Caesar_System\RMS\trunk\RMSCS\Kitchen\obj\Debug\Kitchen.frmEditPsw.resources
+D:\Project\Caesar_System\RMS\trunk\RMSCS\Kitchen\obj\Debug\Kitchen.InputMode.resources
+D:\Project\Caesar_System\RMS\trunk\RMSCS\Kitchen\obj\Debug\Kitchen.csproj.GenerateResource.Cache
+D:\Project\Caesar_System\RMS\trunk\RMSCS\Kitchen\obj\Debug\Kitchen.exe
+D:\Project\Caesar_System\RMS\trunk\RMSCS\Kitchen\obj\Debug\Kitchen.pdb
+D:\Project\Caesar_System\RMS\trunk\RMSCS\Kitchen\obj\Debug\Interop.AppSupportLib.dll
+D:\Project\Caesar_System\RMS\trunk\RMSCS\Kitchen\obj\Debug\Kitchen.csproj.ResolveComReference.cache
