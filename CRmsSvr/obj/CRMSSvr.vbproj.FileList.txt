@@ -1,0 +1,12 @@
+..\Debug\CRmsSvr.dll
+..\Debug\CRmsSvr.pdb
+..\Debug\CRmsSvr.xml
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\CRmsSvr.dll
+obj\Debug\CRmsSvr.xml
+obj\Debug\CRmsSvr.pdb
+..\Release\CRmsSvr.dll
+..\Release\CRmsSvr.xml
+obj\Release\ResolveAssemblyReference.cache
+obj\Release\CRmsSvr.dll
+obj\Release\CRmsSvr.xml

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema id="ds_TableUseFreq" targetNamespace="http://tempuri.org/ds_TableUseFreq.xsd" elementFormDefault="qualified"
+	attributeFormDefault="qualified" xmlns="http://tempuri.org/ds_TableUseFreq.xsd" xmlns:mstns="http://tempuri.org/ds_TableUseFreq.xsd"
+	xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+	<xs:element name="ds_TableUseFreq" msdata:IsDataSet="true">
+		<xs:complexType>
+			<xs:choice maxOccurs="unbounded">
+				<xs:element name="TableUseFreq">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="tabletypename" type="xs:string" minOccurs="0" />
+							<xs:element name="tableno" type="xs:string" minOccurs="0" />
+							<xs:element name="foodcost" type="xs:decimal" minOccurs="0" />
+							<xs:element name="psncount" type="xs:int" minOccurs="0" />
+							<xs:element name="freq" type="xs:int" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:choice>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

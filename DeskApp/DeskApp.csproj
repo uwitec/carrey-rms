@@ -1,0 +1,547 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <ProjectType>Local</ProjectType>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{F57C60E5-F0DA-4B9C-B91A-543753AD31F2}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ApplicationIcon>Wine1.ico</ApplicationIcon>
+    <AssemblyKeyContainerName>
+    </AssemblyKeyContainerName>
+    <AssemblyName>DeskApp</AssemblyName>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+    <AssemblyOriginatorKeyMode>None</AssemblyOriginatorKeyMode>
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <OutputType>WinExe</OutputType>
+    <OptionCompare>Binary</OptionCompare>
+    <OptionExplicit>On</OptionExplicit>
+    <OptionStrict>Off</OptionStrict>
+    <RootNamespace>DeskApp</RootNamespace>
+    <StartupObject>DeskApp.mainform</StartupObject>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <MyType>WindowsFormsWithCustomSubMain</MyType>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>..\Debug\</OutputPath>
+    <DocumentationFile>DeskApp.xml</DocumentationFile>
+    <BaseAddress>285212672</BaseAddress>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>
+    </DefineConstants>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <DebugSymbols>true</DebugSymbols>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>1</WarningLevel>
+    <NOWARN>1591,660,661</NOWARN>
+    <DebugType>full</DebugType>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>..\Release\</OutputPath>
+    <DocumentationFile>DeskApp.xml</DocumentationFile>
+    <BaseAddress>285212672</BaseAddress>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>
+    </DefineConstants>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <DebugSymbols>false</DebugSymbols>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>1</WarningLevel>
+    <NOWARN>1591,660,661</NOWARN>
+    <DebugType>none</DebugType>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'OEM|AnyCPU' ">
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>DeskApp.xml</DocumentationFile>
+    <BaseAddress>285212672</BaseAddress>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>
+    </DefineConstants>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <DebugSymbols>true</DebugSymbols>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>1</WarningLevel>
+    <NOWARN>1591,660,661</NOWARN>
+    <DebugType>full</DebugType>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="mscorlib" />
+    <Reference Include="System">
+      <Name>System</Name>
+    </Reference>
+    <Reference Include="System.Data">
+      <Name>System.Data</Name>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Drawing">
+      <Name>System.Drawing</Name>
+    </Reference>
+    <Reference Include="System.Messaging">
+      <Name>System.Messaging</Name>
+    </Reference>
+    <Reference Include="System.Web.Services">
+      <Name>system.web.services</Name>
+      <HintPath>c:\windows\assembly\gac\system.web.services\1.0.5000.0__b03f5f7f11d50a3a\system.web.services.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Windows.Forms">
+      <Name>System.Windows.Forms</Name>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Name>System.XML</Name>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AddFood.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Authorize.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="cr_Balance.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>cr_Balance.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="cr_BalanceType.cs">
+      <DependentUpon>cr_BalanceType.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="cr_customer.cs">
+      <DependentUpon>cr_customer.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="cr_PayforTemp.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>cr_PayforTemp.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="cr_salebillsfoods1.cs">
+      <DependentUpon>cr_salebillsfoods.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="ds_Balance.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ds_Balance.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ds_BalanceType.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ds_BalanceType.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="frmAppoint.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBacktable.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBalanceQry.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBalanceTypeQry.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBrsCurrentFood.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBrsSpecialFood.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCancelFoodQty.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCancelRsn.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCustomer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCustomerFreq.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDelList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDestTableno.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEditCust.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEditPsw.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmFreeDiscount.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmJoinToClub.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmNewAppointBill.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPayFor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmQuerySignPay.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSelClubCard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSelCustomer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSelDerateReason.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSelManager.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSelPayType.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSelScdStrgDept.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSignPay.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSuitFood.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTableStatus.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InputBill.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InputMode.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="mainform.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="report_var.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="rms_var.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SelTimeBlock.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <EmbeddedResource Include="AddFood.resx">
+      <DependentUpon>AddFood.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddForm.resx">
+      <DependentUpon>AddForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="cr_Balance.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>cr_Balance.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="cr_BalanceType.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>cr_BalanceType.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="cr_customer.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>cr_customer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="cr_PayforTemp.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>cr_PayforTemp.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="cr_salebillsfoods.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>cr_salebillsfoods1.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAppoint.resx">
+      <DependentUpon>frmAppoint.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmBacktable.resx">
+      <DependentUpon>frmBacktable.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmBalanceQry.resx">
+      <DependentUpon>frmBalanceQry.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmBalanceTypeQry.resx">
+      <DependentUpon>frmBalanceTypeQry.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmBrsCurrentFood.resx">
+      <DependentUpon>frmBrsCurrentFood.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmBrsSpecialFood.resx">
+      <DependentUpon>frmBrsSpecialFood.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCancelFoodQty.resx">
+      <DependentUpon>frmCancelFoodQty.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCancelRsn.resx">
+      <DependentUpon>frmCancelRsn.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCustomer.resx">
+      <DependentUpon>frmCustomer.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCustomerFreq.resx">
+      <DependentUpon>frmCustomerFreq.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDelList.resx">
+      <DependentUpon>frmDelList.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDestTableno.resx">
+      <DependentUpon>frmDestTableno.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEditCust.resx">
+      <DependentUpon>frmEditCust.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEditPsw.resx">
+      <DependentUpon>frmEditPsw.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmFreeDiscount.resx">
+      <DependentUpon>frmFreeDiscount.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmJoinToClub.resx">
+      <DependentUpon>frmJoinToClub.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmNewAppointBill.resx">
+      <DependentUpon>frmNewAppointBill.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPayFor.resx">
+      <DependentUpon>frmPayFor.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmQuerySignPay.resx">
+      <DependentUpon>frmQuerySignPay.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSelClubCard.resx">
+      <DependentUpon>frmSelClubCard.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSelCustomer.resx">
+      <DependentUpon>frmSelCustomer.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSelDerateReason.resx">
+      <DependentUpon>frmSelDerateReason.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSelManager.resx">
+      <DependentUpon>frmSelManager.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSelPayType.resx">
+      <DependentUpon>frmSelPayType.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSelScdStrgDept.resx">
+      <DependentUpon>frmSelScdStrgDept.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSignPay.resx">
+      <DependentUpon>frmSignPay.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSuitFood.resx">
+      <DependentUpon>frmSuitFood.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTableStatus.resx">
+      <DependentUpon>frmTableStatus.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InputBill.resx">
+      <DependentUpon>InputBill.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InputMode.resx">
+      <DependentUpon>InputMode.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="mainform.resx">
+      <DependentUpon>mainform.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SelTimeBlock.resx">
+      <DependentUpon>SelTimeBlock.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Content Include="ds_Balance.xsd">
+      <CustomToolNamespace>DeskApp</CustomToolNamespace>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ds_Balance.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="ds_BalanceType.xsd">
+      <CustomToolNamespace>DeskApp</CustomToolNamespace>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ds_BalanceType.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="ds_SaleBillsFoods.xsd">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Wine1.ico" />
+    <None Include="app.config" />
+    <None Include="ds_Balance.xsc">
+      <DependentUpon>ds_Balance.xsd</DependentUpon>
+    </None>
+    <None Include="ds_Balance.xsx">
+      <DependentUpon>ds_Balance.xsd</DependentUpon>
+    </None>
+    <None Include="ds_BalanceType.xsc">
+      <DependentUpon>ds_BalanceType.xsd</DependentUpon>
+    </None>
+    <None Include="ds_BalanceType.xsx">
+      <DependentUpon>ds_BalanceType.xsd</DependentUpon>
+    </None>
+    <None Include="ds_SaleBillsFoods.xsx">
+      <DependentUpon>ds_SaleBillsFoods.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{967B4E0D-AD0C-4609-AB67-0FA40C0206D8}" />
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\AppExt\AppExt.csproj">
+      <Project>{8CFA1328-6D4D-4533-951E-D52F341316C7}</Project>
+      <Name>AppExt</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CRmsSvr\CRMSSvr.csproj">
+      <Project>{5BA37CD4-C206-4C2F-9D0E-18740DEBCD49}</Project>
+      <Name>CRMSSvr</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DevExt\DevExt.csproj">
+      <Project>{60EA864F-08E8-41A4-ABDC-1F804F0F1B9C}</Project>
+      <Name>DevExt</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)/Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+</Project>

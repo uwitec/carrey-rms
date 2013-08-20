@@ -1,0 +1,148 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>DecisionApp</name>
+    </assembly>
+    <members>
+        <member name="T:DecisionApp.ds_TableType.TableType_sumDataTable">
+            <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:DecisionApp.ds_TableType.TableType_sumRow">
+            <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:DecisionApp.ds_TableType.TableType_sumRowChangeEvent">
+            <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:DecisionApp.ds_Balance.view_BalanceDataTable">
+            <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:DecisionApp.ds_Balance.view_BalanceRow">
+            <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:DecisionApp.ds_Balance.view_BalanceRowChangeEvent">
+            <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:DecisionApp.ds_deptcost.dept_cost_sumDataTable">
+            <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:DecisionApp.ds_deptcost.dept_cost_sumRow">
+            <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:DecisionApp.ds_deptcost.dept_cost_sumRowChangeEvent">
+            <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:DecisionApp.ds_TableUseFreq.TableUseFreqDataTable">
+            <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:DecisionApp.ds_TableUseFreq.TableUseFreqRow">
+            <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:DecisionApp.ds_TableUseFreq.TableUseFreqRowChangeEvent">
+            <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:DecisionApp.ds_BalanceType.view_BalanceTypeDataTable">
+            <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:DecisionApp.ds_BalanceType.view_BalanceTypeRow">
+            <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:DecisionApp.ds_BalanceType.view_BalanceTypeRowChangeEvent">
+            <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:DecisionApp.ds_deptstat.Dept_statDataTable">
+            <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:DecisionApp.ds_deptstat.Dept_statRow">
+            <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:DecisionApp.ds_deptstat.Dept_statRowChangeEvent">
+            <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="M:DecisionApp.Program.Main">
+            <summary>
+            应用程序的主入口点。
+            </summary>
+        </member>
+        <member name="T:DecisionApp.ds_FoodSale.view_salelistDataTable">
+            <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:DecisionApp.ds_FoodSale.view_salelistRow">
+            <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:DecisionApp.ds_FoodSale.view_salelistRowChangeEvent">
+            <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:DecisionApp.ds_deptsale.Dept_sale_sumDataTable">
+            <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:DecisionApp.ds_deptsale.Dept_sale_sumRow">
+            <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:DecisionApp.ds_deptsale.Dept_sale_sumRowChangeEvent">
+            <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:DecisionApp.ds_yybb.view_dept_sumDataTable">
+            <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:DecisionApp.ds_yybb.view_dept_sumRow">
+            <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:DecisionApp.ds_yybb.view_dept_sumRowChangeEvent">
+            <summary>
+            Row event argument class
+            </summary>
+        </member>
+    </members>
+</doc>

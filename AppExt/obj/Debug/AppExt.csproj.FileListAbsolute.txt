@@ -1,0 +1,11 @@
+D:\Project\Caesar_System\RMS\trunk\RMSCS\Debug\AppExt.dll
+D:\Project\Caesar_System\RMS\trunk\RMSCS\Debug\AppExt.pdb
+D:\Project\Caesar_System\RMS\trunk\RMSCS\Debug\AppExt.xml
+D:\Project\Caesar_System\RMS\trunk\RMSCS\AppExt\obj\Debug\ResolveAssemblyReference.cache
+D:\Project\Caesar_System\RMS\trunk\RMSCS\AppExt\obj\Debug\AppExt.frmAbout.resources
+D:\Project\Caesar_System\RMS\trunk\RMSCS\AppExt\obj\Debug\AppExt.LogForm.resources
+D:\Project\Caesar_System\RMS\trunk\RMSCS\AppExt\obj\Debug\AppExt.Properties.Resources.resources
+D:\Project\Caesar_System\RMS\trunk\RMSCS\AppExt\obj\Debug\AppExt.TouchLogForm.resources
+D:\Project\Caesar_System\RMS\trunk\RMSCS\AppExt\obj\Debug\AppExt.csproj.GenerateResource.Cache
+D:\Project\Caesar_System\RMS\trunk\RMSCS\AppExt\obj\Debug\AppExt.dll
+D:\Project\Caesar_System\RMS\trunk\RMSCS\AppExt\obj\Debug\AppExt.pdb

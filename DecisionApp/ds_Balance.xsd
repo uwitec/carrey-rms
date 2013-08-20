@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema id="ds_Balance" targetNamespace="http://tempuri.org/ds_Balance.xsd" elementFormDefault="qualified"
+	attributeFormDefault="qualified" xmlns="http://tempuri.org/ds_Balance.xsd" xmlns:mstns="http://tempuri.org/ds_Balance.xsd"
+	xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+	<xs:element name="ds_Balance" msdata:IsDataSet="true">
+		<xs:complexType>
+			<xs:choice maxOccurs="unbounded">
+				<xs:element name="view_Balance">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="SerialNo" type="xs:string" minOccurs="0" />
+							<xs:element name="tableno" type="xs:string" minOccurs="0" />
+							<xs:element name="Openpsn" type="xs:int" />
+							<xs:element name="BeginTime" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="FoodCost" type="xs:decimal" minOccurs="0" />
+							<xs:element name="DiscountCost" type="xs:decimal" minOccurs="0" />
+							<xs:element name="ServerCost" type="xs:decimal" minOccurs="0" />
+							<xs:element name="AddCost" type="xs:decimal" minOccurs="0" />
+							<xs:element name="OvertimeCost" type="xs:decimal" minOccurs="0" />
+							<xs:element name="OddCost" type="xs:decimal" minOccurs="0" />
+							<xs:element name="PresentCost" type="xs:decimal" minOccurs="0" />
+							<xs:element name="NeedCost" type="xs:decimal" minOccurs="0" />
+							<xs:element name="DerateCost" type="xs:decimal" minOccurs="0" />
+							<xs:element name="BalanceCost" type="xs:decimal" minOccurs="0" />
+							<xs:element name="Balanced" type="xs:string" minOccurs="0" />
+							<xs:element name="PayTime" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="Operator" type="xs:string" minOccurs="0" />
+							<xs:element name="DerateRsn" type="xs:string" minOccurs="0" />
+							<xs:element name="DerateMngr" type="xs:string" minOccurs="0" />
+							<xs:element name="Note" type="xs:string" minOccurs="0" />
+							<xs:element name="Hide" type="xs:string" minOccurs="0" />
+							<xs:element name="Printed" type="xs:string" minOccurs="0" />
+							<xs:element name="TimeBlockCode" type="xs:string" minOccurs="0" />
+							<xs:element name="processed" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:choice>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>
