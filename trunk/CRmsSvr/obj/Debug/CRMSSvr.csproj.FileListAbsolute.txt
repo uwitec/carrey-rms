@@ -1,0 +1,6 @@
+D:\Project\Caesar_System\RMS\trunk\RMSCS\Debug\CRmsSvr.dll
+D:\Project\Caesar_System\RMS\trunk\RMSCS\Debug\CRmsSvr.pdb
+D:\Project\Caesar_System\RMS\trunk\RMSCS\Debug\CRmsSvr.xml
+D:\Project\Caesar_System\RMS\trunk\RMSCS\CRmsSvr\obj\Debug\ResolveAssemblyReference.cache
+D:\Project\Caesar_System\RMS\trunk\RMSCS\CRmsSvr\obj\Debug\CRmsSvr.dll
+D:\Project\Caesar_System\RMS\trunk\RMSCS\CRmsSvr\obj\Debug\CRmsSvr.pdb

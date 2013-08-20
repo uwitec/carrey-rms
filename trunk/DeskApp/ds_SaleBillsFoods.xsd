@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema id="ds_SaleBillsFoods" targetNamespace="http://tempuri.org/ds_SaleBillsFoods.xsd"
+	elementFormDefault="qualified" attributeFormDefault="qualified" xmlns="http://tempuri.org/ds_SaleBillsFoods.xsd"
+	xmlns:mstns="http://tempuri.org/ds_SaleBillsFoods.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+	<xs:element name="ds_SaleBillsFoods" msdata:IsDataSet="true">
+		<xs:complexType>
+			<xs:choice maxOccurs="unbounded">
+				<xs:element name="view_salebillsfoods_t">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="SerialNo" type="xs:string" />
+							<xs:element name="TableNo" type="xs:string" />
+							<xs:element name="BillNo" type="xs:string" />
+							<xs:element name="BillTypeCode" type="xs:string" />
+							<xs:element name="billtypename" type="xs:string" />
+							<xs:element name="ConsumeBill" type="xs:string" minOccurs="0" />
+							<xs:element name="CancelBill" type="xs:string" minOccurs="0" />
+							<xs:element name="PresentBill" type="xs:string" minOccurs="0" />
+							<xs:element name="FoodCode" type="xs:string" minOccurs="0" />
+							<xs:element name="FoodName" type="xs:string" minOccurs="0" />
+							<xs:element name="TypeName" type="xs:string" minOccurs="0" />
+							<xs:element name="Unit" type="xs:string" minOccurs="0" />
+							<xs:element name="Add_Dec" type="xs:string" minOccurs="0" />
+							<xs:element name="AddQuantity" type="xs:decimal" minOccurs="0" />
+							<xs:element name="DecQuantity" type="xs:decimal" minOccurs="0" />
+							<xs:element name="Quantity" type="xs:decimal" minOccurs="0" />
+							<xs:element name="Price" type="xs:decimal" minOccurs="0" />
+							<xs:element name="BeginTime" type="xs:dateTime" minOccurs="0" />
+							<xs:element name="OperatorID" type="xs:string" minOccurs="0" />
+							<xs:element name="taste" type="xs:string" minOccurs="0" />
+							<xs:element name="operandi" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:choice>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>
