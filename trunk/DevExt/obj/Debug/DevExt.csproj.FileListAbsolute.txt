@@ -1,0 +1,8 @@
+D:\Project\Caesar_System\RMS\trunk\RMSCS\DevExt\bin\Debug\DevExt.dll
+D:\Project\Caesar_System\RMS\trunk\RMSCS\DevExt\bin\Debug\DevExt.pdb
+D:\Project\Caesar_System\RMS\trunk\RMSCS\DevExt\obj\Debug\ResolveAssemblyReference.cache
+D:\Project\Caesar_System\RMS\trunk\RMSCS\DevExt\obj\Debug\DevExt.dll
+D:\Project\Caesar_System\RMS\trunk\RMSCS\DevExt\obj\Debug\DevExt.pdb
+D:\Project\Caesar_System\RMS\trunk\RMSCS\Debug\DevExt.dll
+D:\Project\Caesar_System\RMS\trunk\RMSCS\Debug\DevExt.pdb
+D:\Project\Caesar_System\RMS\trunk\RMSCS\Debug\DevExt.dll.config
