@@ -1,0 +1,10 @@
+D:\Project\Caesar_System\RMS\trunk\RMSCS\Release\InitApp.exe
+D:\Project\Caesar_System\RMS\trunk\RMSCS\Release\InitApp.xml
+D:\Project\Caesar_System\RMS\trunk\RMSCS\InitApp\obj\Release\InitApp.Form1.resources
+D:\Project\Caesar_System\RMS\trunk\RMSCS\InitApp\obj\Release\InitApp.exe
+D:\Project\Caesar_System\RMS\trunk\RMSCS\InitApp\obj\Release\InitApp.csproj.ResolveComReference.cache
+D:\Project\Caesar_System\RMS\trunk\RMSCS\Release\InitApp.exe.config
+D:\Project\Caesar_System\RMS\trunk\Bin\InitApp.exe.config
+D:\Project\Caesar_System\RMS\trunk\Bin\InitApp.exe
+D:\Project\Caesar_System\RMS\trunk\Bin\InitApp.xml
+D:\Project\Caesar_System\RMS\trunk\RMSCS\InitApp\obj\Release\InitApp.csproj.GenerateResource.Cache

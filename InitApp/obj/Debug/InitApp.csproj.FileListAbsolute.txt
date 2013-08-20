@@ -1,0 +1,10 @@
+D:\Project\Caesar_System\RMS\trunk\RMSCS\Debug\InitApp.exe
+D:\Project\Caesar_System\RMS\trunk\RMSCS\Debug\InitApp.pdb
+D:\Project\Caesar_System\RMS\trunk\RMSCS\Debug\InitApp.xml
+D:\Project\Caesar_System\RMS\trunk\RMSCS\InitApp\obj\Debug\ResolveAssemblyReference.cache
+D:\Project\Caesar_System\RMS\trunk\RMSCS\InitApp\obj\Debug\InitApp.Form1.resources
+D:\Project\Caesar_System\RMS\trunk\RMSCS\InitApp\obj\Debug\InitApp.csproj.GenerateResource.Cache
+D:\Project\Caesar_System\RMS\trunk\RMSCS\InitApp\obj\Debug\InitApp.exe
+D:\Project\Caesar_System\RMS\trunk\RMSCS\InitApp\obj\Debug\InitApp.pdb
+D:\Project\Caesar_System\RMS\trunk\RMSCS\InitApp\obj\Debug\Interop.AppSupportLib.dll
+D:\Project\Caesar_System\RMS\trunk\RMSCS\InitApp\obj\Debug\InitApp.csproj.ResolveComReference.cache
