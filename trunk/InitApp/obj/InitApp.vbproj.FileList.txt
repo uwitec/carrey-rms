@@ -1,0 +1,16 @@
+..\Debug\InitApp.exe
+..\Debug\InitApp.pdb
+..\Debug\InitApp.xml
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\InitApp.Form1.resources
+obj\Debug\InitApp.vbproj.GenerateResource.Cache
+obj\Debug\InitApp.exe
+obj\Debug\InitApp.xml
+obj\Debug\InitApp.pdb
+..\Release\InitApp.exe
+..\Release\InitApp.xml
+obj\Release\ResolveAssemblyReference.cache
+obj\Release\InitApp.Form1.resources
+obj\Release\InitApp.vbproj.GenerateResource.Cache
+obj\Release\InitApp.exe
+obj\Release\InitApp.xml
