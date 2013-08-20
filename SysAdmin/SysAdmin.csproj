@@ -1,0 +1,569 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <ProjectType>Local</ProjectType>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{752DB2CC-31F7-4F40-AA77-C07A51E2AB99}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ApplicationIcon>BeIDE.ico</ApplicationIcon>
+    <AssemblyKeyContainerName>
+    </AssemblyKeyContainerName>
+    <AssemblyName>SysAdmin</AssemblyName>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+    <AssemblyOriginatorKeyMode>None</AssemblyOriginatorKeyMode>
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <OutputType>WinExe</OutputType>
+    <OptionCompare>Binary</OptionCompare>
+    <OptionExplicit>On</OptionExplicit>
+    <OptionStrict>Off</OptionStrict>
+    <RootNamespace>SysAdmin</RootNamespace>
+    <StartupObject>SysAdmin.frmSysAdmin</StartupObject>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <MyType>WindowsFormsWithCustomSubMain</MyType>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>..\Debug\</OutputPath>
+    <DocumentationFile>SysAdmin.xml</DocumentationFile>
+    <BaseAddress>285212672</BaseAddress>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>
+    </DefineConstants>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <DebugSymbols>true</DebugSymbols>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>1</WarningLevel>
+    <NOWARN>1591,660,661</NOWARN>
+    <DebugType>full</DebugType>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>..\Release\</OutputPath>
+    <DocumentationFile>SysAdmin.xml</DocumentationFile>
+    <BaseAddress>285212672</BaseAddress>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>
+    </DefineConstants>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <DebugSymbols>false</DebugSymbols>
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>1</WarningLevel>
+    <NOWARN>1591,660,661</NOWARN>
+    <DebugType>none</DebugType>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'OEM|AnyCPU' ">
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>SysAdmin.xml</DocumentationFile>
+    <BaseAddress>285212672</BaseAddress>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>
+    </DefineConstants>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <DebugSymbols>true</DebugSymbols>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>1</WarningLevel>
+    <NOWARN>1591,660,661</NOWARN>
+    <DebugType>full</DebugType>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="mscorlib" />
+    <Reference Include="System">
+      <Name>System</Name>
+    </Reference>
+    <Reference Include="System.Data">
+      <Name>System.Data</Name>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <Name>System.Drawing</Name>
+    </Reference>
+    <Reference Include="System.Windows.Forms">
+      <Name>System.Windows.Forms</Name>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Name>System.XML</Name>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="cr_card.cs">
+      <DependentUpon>cr_card.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="cr_customer.cs">
+      <DependentUpon>cr_customer.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="cr_dept.cs">
+      <DependentUpon>cr_dept.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="cr_employee.cs">
+      <DependentUpon>cr_employee.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="cr_food.cs">
+      <DependentUpon>cr_food.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="cr_table.cs">
+      <DependentUpon>cr_table.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="frmAccess.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAddFoodCost.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAddSuitFood.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAddSuitFoodQty.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAdjustFoodPrice.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmApplyDiscountDept.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBillType.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCancelReason.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCardAddupDisc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCardPsw.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCardSc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCardSupply.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmClubCard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmClubDiscount.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCustInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCustomer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCustType.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDept.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDerateReason.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEditAccess.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEditCust.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEditDept.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEditEmpl.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEditFood.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEditFoodOperandi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEditFoodTaste.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEditOp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEditPsw.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEditTable.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEmployee.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmFoodCost.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmFoodDiscount.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmFoodList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmFoodType.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmJoinToClub.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPayType.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSrchCardSpl.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSuitFood.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSysAdmin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSysSetup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTableList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTableType.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTimeBlock.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="report_var.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="rms_var.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Content Include="BeIDE.ico" />
+    <EmbeddedResource Include="cr_card.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>cr_card.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="cr_customer.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>cr_customer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="cr_dept.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>cr_dept.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="cr_employee.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>cr_employee.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="cr_food.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>cr_food.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="cr_table.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>cr_table.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAccess.resx">
+      <DependentUpon>frmAccess.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAddFoodCost.resx">
+      <DependentUpon>frmAddFoodCost.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAddSuitFood.resx">
+      <DependentUpon>frmAddSuitFood.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAddSuitFoodQty.resx">
+      <DependentUpon>frmAddSuitFoodQty.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAdjustFoodPrice.resx">
+      <DependentUpon>frmAdjustFoodPrice.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmApplyDiscountDept.resx">
+      <DependentUpon>frmApplyDiscountDept.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmBillType.resx">
+      <DependentUpon>frmBillType.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCancelReason.resx">
+      <DependentUpon>frmCancelReason.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCardAddupDisc.resx">
+      <DependentUpon>frmCardAddupDisc.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCardPsw.resx">
+      <DependentUpon>frmCardPsw.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCardSc.resx">
+      <DependentUpon>frmCardSc.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCardSupply.resx">
+      <DependentUpon>frmCardSupply.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmClubCard.resx">
+      <DependentUpon>frmClubCard.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmClubDiscount.resx">
+      <DependentUpon>frmClubDiscount.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCustInfo.resx">
+      <DependentUpon>frmCustInfo.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCustomer.resx">
+      <DependentUpon>frmCustomer.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCustType.resx">
+      <DependentUpon>frmCustType.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDept.resx">
+      <DependentUpon>frmDept.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDerateReason.resx">
+      <DependentUpon>frmDerateReason.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEditAccess.resx">
+      <DependentUpon>frmEditAccess.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEditCust.resx">
+      <DependentUpon>frmEditCust.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEditDept.resx">
+      <DependentUpon>frmEditDept.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEditEmpl.resx">
+      <DependentUpon>frmEditEmpl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEditFood.resx">
+      <DependentUpon>frmEditFood.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEditFoodOperandi.resx">
+      <DependentUpon>frmEditFoodOperandi.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEditFoodTaste.resx">
+      <DependentUpon>frmEditFoodTaste.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEditOp.resx">
+      <DependentUpon>frmEditOp.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEditPsw.resx">
+      <DependentUpon>frmEditPsw.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEditTable.resx">
+      <DependentUpon>frmEditTable.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEmployee.resx">
+      <DependentUpon>frmEmployee.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmFoodCost.resx">
+      <DependentUpon>frmFoodCost.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmFoodDiscount.resx">
+      <DependentUpon>frmFoodDiscount.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmFoodList.resx">
+      <DependentUpon>frmFoodList.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmFoodType.resx">
+      <DependentUpon>frmFoodType.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmJoinToClub.resx">
+      <DependentUpon>frmJoinToClub.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPayType.resx">
+      <DependentUpon>frmPayType.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSrchCardSpl.resx">
+      <DependentUpon>frmSrchCardSpl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSuitFood.resx">
+      <DependentUpon>frmSuitFood.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSysAdmin.resx">
+      <DependentUpon>frmSysAdmin.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSysSetup.resx">
+      <DependentUpon>frmSysSetup.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTableList.resx">
+      <DependentUpon>frmTableList.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTableType.resx">
+      <DependentUpon>frmTableType.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTimeBlock.resx">
+      <DependentUpon>frmTimeBlock.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{967B4E0D-AD0C-4609-AB67-0FA40C0206D8}" />
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+    <Service Include="{CF845C55-C321-4742-B673-E6212D061ED9}" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\AppExt\AppExt.csproj">
+      <Project>{8CFA1328-6D4D-4533-951E-D52F341316C7}</Project>
+      <Name>AppExt</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DevExt\DevExt.csproj">
+      <Project>{60EA864F-08E8-41A4-ABDC-1F804F0F1B9C}</Project>
+      <Name>DevExt</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="AppSupportLib">
+      <Guid>{22E139EC-9F45-4566-BC23-9612014BB8A9}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)/Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+</Project>
