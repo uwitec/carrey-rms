@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE dotfuscator SYSTEM "http://www.preemptive.com/dotfuscator/dtd/dotfuscator_v1.1.dtd">
+<dotfuscator version="1.1">
+  <!--这是应用程序生成的代码。不要手动编辑。-->
+  <trigger>
+    <filelist>
+      <file dir="F:\My Documents\Visual Studio Projects\RMS\ReleaseEdition\Release\" name="AppExt.dll" />
+      <file dir="F:\My Documents\Visual Studio Projects\RMS\ReleaseEdition\Release\" name="CRmsSvr.dll" />
+      <file dir="F:\My Documents\Visual Studio Projects\RMS\ReleaseEdition\Release\" name="DecisionApp.exe" />
+      <file dir="F:\My Documents\Visual Studio Projects\RMS\ReleaseEdition\Release\" name="DeskApp.exe" />
+      <file dir="F:\My Documents\Visual Studio Projects\RMS\ReleaseEdition\Release\" name="InitApp.exe" />
+      <file dir="F:\My Documents\Visual Studio Projects\RMS\ReleaseEdition\Release\" name="Kitchen.exe" />
+      <file dir="F:\My Documents\Visual Studio Projects\RMS\ReleaseEdition\Release\" name="RMSServer.exe" />
+      <file dir="F:\My Documents\Visual Studio Projects\RMS\ReleaseEdition\Release\" name="StorageApp.exe" />
+      <file dir="F:\My Documents\Visual Studio Projects\RMS\ReleaseEdition\Release\" name="SysAdmin.exe" />
+      <file dir="F:\My Documents\Visual Studio Projects\RMS\ReleaseEdition\Release\" name="TouchScreen.exe" />
+    </filelist>
+  </trigger>
+  <output>
+    <file dir="F:\My Documents\Visual Studio Projects\RMS\ReleaseEdition\Release\Dotfuscator" />
+  </output>
+  <tempdir>
+    <file dir="D:\Temp\" />
+  </tempdir>
+</dotfuscator>
