@@ -1,0 +1,14 @@
+D:\Project\Caesar_System\RMS\trunk\RMSCS\Tester\bin\Debug\Tester.exe
+D:\Project\Caesar_System\RMS\trunk\RMSCS\Tester\bin\Debug\Tester.pdb
+D:\Project\Caesar_System\RMS\trunk\RMSCS\Tester\obj\Debug\ResolveAssemblyReference.cache
+D:\Project\Caesar_System\RMS\trunk\RMSCS\Tester\obj\Debug\Tester.Form1.resources
+D:\Project\Caesar_System\RMS\trunk\RMSCS\Tester\obj\Debug\Tester.Properties.Resources.resources
+D:\Project\Caesar_System\RMS\trunk\RMSCS\Tester\obj\Debug\Tester.csproj.GenerateResource.Cache
+D:\Project\Caesar_System\RMS\trunk\RMSCS\Tester\obj\Debug\Tester.exe
+D:\Project\Caesar_System\RMS\trunk\RMSCS\Tester\obj\Debug\Tester.pdb
+D:\Project\Caesar_System\RMS\trunk\RMSCS\Tester\bin\Debug\AppExt.dll
+D:\Project\Caesar_System\RMS\trunk\RMSCS\Tester\bin\Debug\SkinH_CS.dll
+D:\Project\Caesar_System\RMS\trunk\RMSCS\Tester\bin\Debug\AppExt.pdb
+D:\Project\Caesar_System\RMS\trunk\RMSCS\Tester\bin\Debug\AppExt.xml
+D:\Project\Caesar_System\RMS\trunk\RMSCS\Tester\bin\Debug\DevExt.dll
+D:\Project\Caesar_System\RMS\trunk\RMSCS\Tester\bin\Debug\DevExt.pdb
