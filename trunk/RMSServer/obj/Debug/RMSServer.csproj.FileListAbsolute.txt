@@ -1,0 +1,11 @@
+D:\Project\Caesar_System\RMS\trunk\RMSCS\Debug\RMSServer.exe
+D:\Project\Caesar_System\RMS\trunk\RMSCS\Debug\RMSServer.pdb
+D:\Project\Caesar_System\RMS\trunk\RMSCS\Debug\RMSServer.xml
+D:\Project\Caesar_System\RMS\trunk\RMSCS\RMSServer\obj\Debug\ResolveAssemblyReference.cache
+D:\Project\Caesar_System\RMS\trunk\RMSCS\RMSServer\obj\Debug\RMSServer.csproj.GenerateResource.Cache
+D:\Project\Caesar_System\RMS\trunk\RMSCS\RMSServer\obj\Debug\RMSServer.exe.licenses
+D:\Project\Caesar_System\RMS\trunk\RMSCS\RMSServer\obj\Debug\RMSServer.exe
+D:\Project\Caesar_System\RMS\trunk\RMSCS\RMSServer\obj\Debug\RMSServer.pdb
+D:\Project\Caesar_System\RMS\trunk\RMSCS\RMSServer\obj\Debug\RMSServer.frmMain.resources
+D:\Project\Caesar_System\RMS\trunk\RMSCS\RMSServer\obj\Debug\Interop.AppSupportLib.dll
+D:\Project\Caesar_System\RMS\trunk\RMSCS\RMSServer\obj\Debug\RMSServer.csproj.ResolveComReference.cache
