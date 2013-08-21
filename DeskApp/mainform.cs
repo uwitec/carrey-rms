@@ -159,6 +159,8 @@ namespace DeskApp
             this.ToolBarButton12 = new System.Windows.Forms.ToolBarButton();
             this.ToolBarButton13 = new System.Windows.Forms.ToolBarButton();
             this.ToolBarButton14 = new System.Windows.Forms.ToolBarButton();
+            this.toolBarButton18 = new System.Windows.Forms.ToolBarButton();
+            this.toolBarButton19 = new System.Windows.Forms.ToolBarButton();
             this.ToolBarButton15 = new System.Windows.Forms.ToolBarButton();
             this.ToolBarButton16 = new System.Windows.Forms.ToolBarButton();
             this.ToolBarButton17 = new System.Windows.Forms.ToolBarButton();
@@ -213,8 +215,6 @@ namespace DeskApp
             this.StatusBarPanel6 = new System.Windows.Forms.StatusBarPanel();
             this.ToolTip1 = new System.Windows.Forms.ToolTip(this.components);
             this.Timer1 = new System.Timers.Timer();
-            this.toolBarButton18 = new System.Windows.Forms.ToolBarButton();
-            this.toolBarButton19 = new System.Windows.Forms.ToolBarButton();
             ((System.ComponentModel.ISupportInitialize)(this.StatusBarPanel1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.StatusBarPanel2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.StatusBarPanel3)).BeginInit();
@@ -391,6 +391,17 @@ namespace DeskApp
             // 
             this.ToolBarButton14.Name = "ToolBarButton14";
             this.ToolBarButton14.Style = System.Windows.Forms.ToolBarButtonStyle.Separator;
+            // 
+            // toolBarButton18
+            // 
+            this.toolBarButton18.ImageIndex = 11;
+            this.toolBarButton18.Name = "toolBarButton18";
+            this.toolBarButton18.Text = "设备管理";
+            // 
+            // toolBarButton19
+            // 
+            this.toolBarButton19.Name = "toolBarButton19";
+            this.toolBarButton19.Style = System.Windows.Forms.ToolBarButtonStyle.Separator;
             // 
             // ToolBarButton15
             // 
@@ -708,7 +719,7 @@ namespace DeskApp
             // 
             // StatusBar1
             // 
-            this.StatusBar1.Location = new System.Drawing.Point(0, 414);
+            this.StatusBar1.Location = new System.Drawing.Point(0, 394);
             this.StatusBar1.Name = "StatusBar1";
             this.StatusBar1.Panels.AddRange(new System.Windows.Forms.StatusBarPanel[] {
             this.StatusBarPanel1,
@@ -773,21 +784,10 @@ namespace DeskApp
             this.Timer1.SynchronizingObject = this;
             this.Timer1.Elapsed += new System.Timers.ElapsedEventHandler(this.Timer1_Elapsed);
             // 
-            // toolBarButton18
-            // 
-            this.toolBarButton18.ImageIndex = 11;
-            this.toolBarButton18.Name = "toolBarButton18";
-            this.toolBarButton18.Text = "设备管理";
-            // 
-            // toolBarButton19
-            // 
-            this.toolBarButton19.Name = "toolBarButton19";
-            this.toolBarButton19.Style = System.Windows.Forms.ToolBarButtonStyle.Separator;
-            // 
             // mainform
             // 
             this.AutoScaleBaseSize = new System.Drawing.Size(6, 14);
-            this.ClientSize = new System.Drawing.Size(813, 436);
+            this.ClientSize = new System.Drawing.Size(813, 416);
             this.Controls.Add(this.StatusBar1);
             this.Controls.Add(this.ToolBar1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));

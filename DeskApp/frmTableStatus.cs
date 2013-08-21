@@ -55,26 +55,28 @@ namespace DeskApp
         private ToolStripComboBox cbTableType;
         private ToolStripLabel toolStripLabel1;
         private ToolStripSeparator toolStripSeparator1;
-        private ListView listView1;
+        private ListView lv_Category;
         private Panel panel1;
         private Splitter splitter1;
         private Panel panel2;
         private GroupBox groupBox1;
         private Label label1;
-        private Label label2;
-        private Label label4;
+        private Label lbl_StartTime;
         private Label label3;
-        private Label label6;
-        private Label label5;
-        private Label label8;
+        private Label lbl_number;
+        private Label lbl_tableStatus;
         private Label label7;
-        private Label label10;
+        private ListView lv_DevExt;
+        private ImageList il_Category;
+        private Label lbl_maxnumber;
+        private Label label4;
+        private Label label5;
+        private Label lbl_LowPay;
+        private Label lbl_RoomPay;
+        private Label label8;
+        private Label lbl_price;
         private Label label9;
-        private Label label12;
-        private Label label11;
-        private Label label14;
-        private Label label13;
-        private ListView listView2;
+        private MenuItem mnu_ChangeStatus;
 		internal System.Windows.Forms.MenuItem MenuItem1;
 		[System.Diagnostics.DebuggerStepThrough()]private void InitializeComponent()
 		{
@@ -86,31 +88,33 @@ namespace DeskApp
             this.mnu_PowerON = new System.Windows.Forms.MenuItem();
             this.mnu_PowerOFF = new System.Windows.Forms.MenuItem();
             this.ImageList1 = new System.Windows.Forms.ImageList(this.components);
-            this.Button1 = new System.Windows.Forms.Button();
             this.toolStrip1 = new System.Windows.Forms.ToolStrip();
             this.toolStripLabel1 = new System.Windows.Forms.ToolStripLabel();
             this.cbTableType = new System.Windows.Forms.ToolStripComboBox();
             this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
-            this.listView1 = new System.Windows.Forms.ListView();
+            this.lv_Category = new System.Windows.Forms.ListView();
+            this.il_Category = new System.Windows.Forms.ImageList(this.components);
             this.panel1 = new System.Windows.Forms.Panel();
             this.splitter1 = new System.Windows.Forms.Splitter();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.label1 = new System.Windows.Forms.Label();
+            this.lv_DevExt = new System.Windows.Forms.ListView();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
+            this.lbl_price = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
-            this.label11 = new System.Windows.Forms.Label();
-            this.label12 = new System.Windows.Forms.Label();
-            this.label13 = new System.Windows.Forms.Label();
-            this.label14 = new System.Windows.Forms.Label();
-            this.listView2 = new System.Windows.Forms.ListView();
+            this.lbl_RoomPay = new System.Windows.Forms.Label();
+            this.label8 = new System.Windows.Forms.Label();
+            this.lbl_LowPay = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.lbl_maxnumber = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.lbl_tableStatus = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
+            this.lbl_number = new System.Windows.Forms.Label();
+            this.lbl_StartTime = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.Button1 = new System.Windows.Forms.Button();
+            this.mnu_ChangeStatus = new System.Windows.Forms.MenuItem();
             this.toolStrip1.SuspendLayout();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -122,11 +126,12 @@ namespace DeskApp
             this.lvTablelist.ContextMenu = this.ContextMenu1;
             this.lvTablelist.Dock = System.Windows.Forms.DockStyle.Fill;
             this.lvTablelist.LargeImageList = this.ImageList1;
-            this.lvTablelist.Location = new System.Drawing.Point(129, 25);
+            this.lvTablelist.Location = new System.Drawing.Point(129, 0);
             this.lvTablelist.Name = "lvTablelist";
-            this.lvTablelist.Size = new System.Drawing.Size(386, 407);
+            this.lvTablelist.Size = new System.Drawing.Size(386, 432);
             this.lvTablelist.TabIndex = 0;
             this.lvTablelist.UseCompatibleStateImageBehavior = false;
+            this.lvTablelist.SelectedIndexChanged += new System.EventHandler(this.lvTablelist_SelectedIndexChanged);
             this.lvTablelist.DoubleClick += new System.EventHandler(this.lvTablelist_DoubleClick);
             // 
             // ContextMenu1
@@ -134,7 +139,8 @@ namespace DeskApp
             this.ContextMenu1.MenuItems.AddRange(new System.Windows.Forms.MenuItem[] {
             this.MenuItem1,
             this.mnu_PowerON,
-            this.mnu_PowerOFF});
+            this.mnu_PowerOFF,
+            this.mnu_ChangeStatus});
             // 
             // MenuItem1
             // 
@@ -159,20 +165,8 @@ namespace DeskApp
             this.ImageList1.Images.SetKeyName(0, "50.png");
             this.ImageList1.Images.SetKeyName(1, "54.png");
             this.ImageList1.Images.SetKeyName(2, "12.png");
-            // 
-            // Button1
-            // 
-            this.Button1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.Button1.DialogResult = System.Windows.Forms.DialogResult.Cancel;
-            this.Button1.Image = ((System.Drawing.Image)(resources.GetObject("Button1.Image")));
-            this.Button1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.Button1.Location = new System.Drawing.Point(615, 7);
-            this.Button1.Name = "Button1";
-            this.Button1.Size = new System.Drawing.Size(88, 34);
-            this.Button1.TabIndex = 2;
-            this.Button1.Text = "关闭(&C)";
-            this.Button1.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.Button1.Click += new System.EventHandler(this.Button1_Click);
+            this.ImageList1.Images.SetKeyName(3, "38.png");
+            this.ImageList1.Images.SetKeyName(4, "49.png");
             // 
             // toolStrip1
             // 
@@ -185,6 +179,7 @@ namespace DeskApp
             this.toolStrip1.Size = new System.Drawing.Size(719, 25);
             this.toolStrip1.TabIndex = 4;
             this.toolStrip1.Text = "toolStrip1";
+            this.toolStrip1.Visible = false;
             // 
             // toolStripLabel1
             // 
@@ -204,14 +199,23 @@ namespace DeskApp
             this.toolStripSeparator1.Name = "toolStripSeparator1";
             this.toolStripSeparator1.Size = new System.Drawing.Size(6, 25);
             // 
-            // listView1
+            // lv_Category
             // 
-            this.listView1.Dock = System.Windows.Forms.DockStyle.Left;
-            this.listView1.Location = new System.Drawing.Point(0, 25);
-            this.listView1.Name = "listView1";
-            this.listView1.Size = new System.Drawing.Size(121, 407);
-            this.listView1.TabIndex = 5;
-            this.listView1.UseCompatibleStateImageBehavior = false;
+            this.lv_Category.Dock = System.Windows.Forms.DockStyle.Left;
+            this.lv_Category.HideSelection = false;
+            this.lv_Category.LargeImageList = this.il_Category;
+            this.lv_Category.Location = new System.Drawing.Point(0, 0);
+            this.lv_Category.Name = "lv_Category";
+            this.lv_Category.Size = new System.Drawing.Size(121, 432);
+            this.lv_Category.TabIndex = 5;
+            this.lv_Category.UseCompatibleStateImageBehavior = false;
+            this.lv_Category.SelectedIndexChanged += new System.EventHandler(this.lv_Category_SelectedIndexChanged);
+            // 
+            // il_Category
+            // 
+            this.il_Category.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("il_Category.ImageStream")));
+            this.il_Category.TransparentColor = System.Drawing.Color.Transparent;
+            this.il_Category.Images.SetKeyName(0, "80.jpg");
             // 
             // panel1
             // 
@@ -225,99 +229,135 @@ namespace DeskApp
             // 
             // splitter1
             // 
-            this.splitter1.Location = new System.Drawing.Point(121, 25);
+            this.splitter1.Location = new System.Drawing.Point(121, 0);
             this.splitter1.Name = "splitter1";
-            this.splitter1.Size = new System.Drawing.Size(8, 407);
+            this.splitter1.Size = new System.Drawing.Size(8, 432);
             this.splitter1.TabIndex = 7;
             this.splitter1.TabStop = false;
             // 
             // panel2
             // 
-            this.panel2.Controls.Add(this.listView2);
+            this.panel2.Controls.Add(this.lv_DevExt);
             this.panel2.Controls.Add(this.groupBox1);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panel2.Location = new System.Drawing.Point(515, 25);
+            this.panel2.Location = new System.Drawing.Point(515, 0);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(204, 407);
+            this.panel2.Size = new System.Drawing.Size(204, 432);
             this.panel2.TabIndex = 8;
             // 
-            // label1
+            // lv_DevExt
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(14, 55);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(41, 12);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "人数：";
+            this.lv_DevExt.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.lv_DevExt.Location = new System.Drawing.Point(0, 249);
+            this.lv_DevExt.Name = "lv_DevExt";
+            this.lv_DevExt.Size = new System.Drawing.Size(204, 183);
+            this.lv_DevExt.TabIndex = 2;
+            this.lv_DevExt.UseCompatibleStateImageBehavior = false;
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.label14);
-            this.groupBox1.Controls.Add(this.label13);
-            this.groupBox1.Controls.Add(this.label12);
-            this.groupBox1.Controls.Add(this.label11);
-            this.groupBox1.Controls.Add(this.label10);
+            this.groupBox1.Controls.Add(this.lbl_price);
             this.groupBox1.Controls.Add(this.label9);
+            this.groupBox1.Controls.Add(this.lbl_RoomPay);
             this.groupBox1.Controls.Add(this.label8);
-            this.groupBox1.Controls.Add(this.label7);
-            this.groupBox1.Controls.Add(this.label6);
+            this.groupBox1.Controls.Add(this.lbl_LowPay);
             this.groupBox1.Controls.Add(this.label5);
+            this.groupBox1.Controls.Add(this.lbl_maxnumber);
             this.groupBox1.Controls.Add(this.label4);
+            this.groupBox1.Controls.Add(this.lbl_tableStatus);
+            this.groupBox1.Controls.Add(this.label7);
+            this.groupBox1.Controls.Add(this.lbl_number);
+            this.groupBox1.Controls.Add(this.lbl_StartTime);
             this.groupBox1.Controls.Add(this.label3);
-            this.groupBox1.Controls.Add(this.label2);
             this.groupBox1.Controls.Add(this.label1);
             this.groupBox1.Dock = System.Windows.Forms.DockStyle.Top;
             this.groupBox1.Location = new System.Drawing.Point(0, 0);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(204, 305);
+            this.groupBox1.Size = new System.Drawing.Size(204, 249);
             this.groupBox1.TabIndex = 1;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "桌台信息";
             // 
-            // label2
+            // lbl_price
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(14, 83);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(41, 12);
-            this.label2.TabIndex = 1;
-            this.label2.Text = "消费：";
+            this.lbl_price.AutoSize = true;
+            this.lbl_price.Location = new System.Drawing.Point(85, 167);
+            this.lbl_price.Name = "lbl_price";
+            this.lbl_price.Size = new System.Drawing.Size(23, 12);
+            this.lbl_price.TabIndex = 17;
+            this.lbl_price.Text = "0元";
             // 
-            // label3
+            // label9
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(14, 109);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(65, 12);
-            this.label3.TabIndex = 2;
-            this.label3.Text = "开台时间：";
+            this.label9.AutoSize = true;
+            this.label9.Location = new System.Drawing.Point(14, 167);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(65, 12);
+            this.label9.TabIndex = 16;
+            this.label9.Text = "当前消费：";
             // 
-            // label4
+            // lbl_RoomPay
             // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(28, 134);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(161, 12);
-            this.label4.TabIndex = 3;
-            this.label4.Text = "200年12月12日 12时12分12秒";
+            this.lbl_RoomPay.AutoSize = true;
+            this.lbl_RoomPay.Location = new System.Drawing.Point(85, 140);
+            this.lbl_RoomPay.Name = "lbl_RoomPay";
+            this.lbl_RoomPay.Size = new System.Drawing.Size(23, 12);
+            this.lbl_RoomPay.TabIndex = 15;
+            this.lbl_RoomPay.Text = "0元";
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Location = new System.Drawing.Point(14, 140);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(53, 12);
+            this.label8.TabIndex = 14;
+            this.label8.Text = "附加费：";
+            // 
+            // lbl_LowPay
+            // 
+            this.lbl_LowPay.AutoSize = true;
+            this.lbl_LowPay.Location = new System.Drawing.Point(85, 111);
+            this.lbl_LowPay.Name = "lbl_LowPay";
+            this.lbl_LowPay.Size = new System.Drawing.Size(23, 12);
+            this.lbl_LowPay.TabIndex = 13;
+            this.lbl_LowPay.Text = "0元";
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(61, 55);
+            this.label5.Location = new System.Drawing.Point(14, 111);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(35, 12);
-            this.label5.TabIndex = 4;
-            this.label5.Text = "100人";
+            this.label5.Size = new System.Drawing.Size(65, 12);
+            this.label5.TabIndex = 12;
+            this.label5.Text = "最低消费：";
             // 
-            // label6
+            // lbl_maxnumber
             // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(61, 83);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(71, 12);
-            this.label6.TabIndex = 5;
-            this.label6.Text = "999999.99元";
+            this.lbl_maxnumber.AutoSize = true;
+            this.lbl_maxnumber.Location = new System.Drawing.Point(85, 52);
+            this.lbl_maxnumber.Name = "lbl_maxnumber";
+            this.lbl_maxnumber.Size = new System.Drawing.Size(23, 12);
+            this.lbl_maxnumber.TabIndex = 11;
+            this.lbl_maxnumber.Text = "0人";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(14, 52);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(65, 12);
+            this.label4.TabIndex = 10;
+            this.label4.Text = "承载人数：";
+            // 
+            // lbl_tableStatus
+            // 
+            this.lbl_tableStatus.AutoSize = true;
+            this.lbl_tableStatus.Location = new System.Drawing.Point(85, 27);
+            this.lbl_tableStatus.Name = "lbl_tableStatus";
+            this.lbl_tableStatus.Size = new System.Drawing.Size(29, 12);
+            this.lbl_tableStatus.TabIndex = 7;
+            this.lbl_tableStatus.Text = "正常";
             // 
             // label7
             // 
@@ -328,77 +368,61 @@ namespace DeskApp
             this.label7.TabIndex = 6;
             this.label7.Text = "餐台状况：";
             // 
-            // label8
+            // lbl_number
             // 
-            this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(85, 27);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(29, 12);
-            this.label8.TabIndex = 7;
-            this.label8.Text = "正常";
+            this.lbl_number.AutoSize = true;
+            this.lbl_number.Location = new System.Drawing.Point(85, 83);
+            this.lbl_number.Name = "lbl_number";
+            this.lbl_number.Size = new System.Drawing.Size(23, 12);
+            this.lbl_number.TabIndex = 4;
+            this.lbl_number.Text = "0人";
             // 
-            // label9
+            // lbl_StartTime
             // 
-            this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(14, 158);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(77, 12);
-            this.label9.TabIndex = 8;
-            this.label9.Text = "经过的时间：";
+            this.lbl_StartTime.AutoSize = true;
+            this.lbl_StartTime.Location = new System.Drawing.Point(29, 223);
+            this.lbl_StartTime.Name = "lbl_StartTime";
+            this.lbl_StartTime.Size = new System.Drawing.Size(17, 12);
+            this.lbl_StartTime.TabIndex = 3;
+            this.lbl_StartTime.Text = "无";
             // 
-            // label10
+            // label3
             // 
-            this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(28, 183);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(89, 12);
-            this.label10.TabIndex = 9;
-            this.label10.Text = "XX小时XX分XX秒";
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(14, 196);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(65, 12);
+            this.label3.TabIndex = 2;
+            this.label3.Text = "开台时间：";
             // 
-            // label11
+            // label1
             // 
-            this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(14, 209);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(65, 12);
-            this.label11.TabIndex = 10;
-            this.label11.Text = "停止时间：";
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(14, 83);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(65, 12);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "当前人数：";
             // 
-            // label12
+            // Button1
             // 
-            this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(28, 235);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(161, 12);
-            this.label12.TabIndex = 11;
-            this.label12.Text = "200年12月12日 12时12分12秒";
+            this.Button1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.Button1.DialogResult = System.Windows.Forms.DialogResult.Cancel;
+            this.Button1.Image = ((System.Drawing.Image)(resources.GetObject("Button1.Image")));
+            this.Button1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.Button1.Location = new System.Drawing.Point(615, 7);
+            this.Button1.Name = "Button1";
+            this.Button1.Size = new System.Drawing.Size(88, 34);
+            this.Button1.TabIndex = 2;
+            this.Button1.Text = "关闭(&C)";
+            this.Button1.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.Button1.Click += new System.EventHandler(this.Button1_Click);
             // 
-            // label13
+            // mnu_ChangeStatus
             // 
-            this.label13.AutoSize = true;
-            this.label13.Location = new System.Drawing.Point(14, 258);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(101, 12);
-            this.label13.TabIndex = 12;
-            this.label13.Text = "倒计时剩余时间：";
-            // 
-            // label14
-            // 
-            this.label14.AutoSize = true;
-            this.label14.Location = new System.Drawing.Point(28, 282);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(89, 12);
-            this.label14.TabIndex = 13;
-            this.label14.Text = "XX小时XX分XX秒";
-            // 
-            // listView2
-            // 
-            this.listView2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.listView2.Location = new System.Drawing.Point(0, 305);
-            this.listView2.Name = "listView2";
-            this.listView2.Size = new System.Drawing.Size(204, 102);
-            this.listView2.TabIndex = 2;
-            this.listView2.UseCompatibleStateImageBehavior = false;
+            this.mnu_ChangeStatus.Index = 3;
+            this.mnu_ChangeStatus.Text = "变更状态";
+            this.mnu_ChangeStatus.Click += new System.EventHandler(this.mnu_ChangeStatus_Click);
             // 
             // frmTableStatus
             // 
@@ -409,7 +433,7 @@ namespace DeskApp
             this.Controls.Add(this.lvTablelist);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.splitter1);
-            this.Controls.Add(this.listView1);
+            this.Controls.Add(this.lv_Category);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.toolStrip1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
@@ -458,7 +482,14 @@ namespace DeskApp
 				{
 					lvitems[i].ImageIndex = 2;
 				}
-				
+				else if (ts == 3) //脏台
+				{
+					lvitems[i].ImageIndex = 3;
+				}
+                else if (ts == 4) //停用
+                {
+                    lvitems[i].ImageIndex = 4;
+                }
 				lvTablelist.Items.Add(lvitems[i]);
 			}
 		}
@@ -495,21 +526,34 @@ namespace DeskApp
 		private void frmTableStatus_Load(System.Object sender, System.EventArgs e)
 		{
 			//初始化主窗口,填充桌台类别列表
+            //cbTableType.Items.Add("全部");
+            //cbTableType.SelectedIndex = 0;
+
+            ListViewItem lvi = new ListViewItem();
+            lvi.Text = "全部";
+            lvi.ImageIndex = 0;
+            lv_Category.Items.Add(lvi);
+
 			DataTable tabletype;
 			tabletype = rms_var.LoadTableType();
 			for (int i = 0; i <= tabletype.Rows.Count - 1; i++)
 			{
-				cbTableType.Items.Add(tabletype.Rows[i]["Name"]);
+                lvi = new ListViewItem();
+                lvi.Text = tabletype.Rows[i]["Name"].ToString();
+                lvi.ImageIndex = 0;
+                lv_Category.Items.Add(lvi);
+                //cbTableType.Items.Add(tabletype.Rows[i]["Name"]);
 			}
-			cbTableType.Items.Add("全部");
-			cbTableType.SelectedIndex = 0;
+            lv_Category.Items[0].Selected = true;
 			//刷新桌台列表视图
-			RefreshTableListView(cbTableType.Text);
+            RefreshTable();
+            //RefreshTableListView(cbTableType.Text);
 		}
 		
 		private void cbTableType_SelectedIndexChanged(System.Object sender, System.EventArgs e)
 		{
-			RefreshTableListView(cbTableType.Text);
+            //RefreshTableListView(cbTableType.Text);
+            RefreshTable();
 		}
 		
 		private void frmTableStatus_Closed(object sender, System.EventArgs e)
@@ -524,8 +568,84 @@ namespace DeskApp
 		
 		private void MenuItem1_Click(System.Object sender, System.EventArgs e)
 		{
-			RefreshTableListView(cbTableType.Text);
+            //RefreshTableListView(cbTableType.Text);
+            RefreshTable();
 		}
+
+        private void lv_Category_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            RefreshTable();
+        }
+
+        public void RefreshTable()
+        {
+            try
+            {
+                RefreshTableListView(lv_Category.SelectedItems[0].Text);
+            }
+            catch { }
+        }
+
+        private void lvTablelist_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            try
+            {
+                string tableno = lvTablelist.SelectedItems[0].Text;
+                //获取桌台状态 0=空闲，1=使用，2=预定中,3=脏台，4=停用
+                int status=rms_var.GetTableStatus(tableno);
+                switch (status)
+                {
+                    case 0:
+                        lbl_tableStatus.Text = "空闲";
+                        break;
+                    case 1:
+                        lbl_tableStatus.Text = "使用中";
+                        break;
+                    case 2:
+                        lbl_tableStatus.Text = "预定中";
+                        break;
+                    case 3:
+                        lbl_tableStatus.Text = "脏台";
+                        break;
+                    case 4:
+                        lbl_tableStatus.Text = "停用";
+                        break;
+                    default:
+                        lbl_tableStatus.Text = "无此桌台";
+                        break;
+
+                }
+                //当然就餐人数
+                try
+                {
+                    lbl_number.Text = rms_var.GetOpenTablePsn(tableno).ToString() + "人";
+                }
+                catch { }
+                //桌台最大载客量
+                lbl_maxnumber.Text = rms_var.GetTableMaxPeopleNumber(tableno)+"人";
+                //开台时间
+                lbl_StartTime .Text= rms_var.GetTableOpenTime(tableno);
+                //返回当前桌台所有金额
+                lbl_price.Text = rms_var.GetTablePrice(tableno)+"元";
+
+                //返回桌台最低消费金额
+                lbl_LowPay.Text = rms_var.GetTableLowPay(tableno) + "元";
+
+                //返回桌台包房/附加费
+                lbl_RoomPay.Text = rms_var.GetTableRoomPay(tableno) + "元";
+            }
+            catch { }
+        }
+
+        private void mnu_ChangeStatus_Click(object sender, EventArgs e)
+        {
+            frmChangeTableStatus fts = new frmChangeTableStatus();
+            if (fts.ShowDialog() == DialogResult.OK)
+            {
+                rms_var.ChangeTableStatus(lvTablelist.SelectedItems[0].Text, fts.GetStatus);
+                RefreshTable();
+            }
+        }
 	}
 	
 }

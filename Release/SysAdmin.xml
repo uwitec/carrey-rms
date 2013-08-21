@@ -4,11 +4,11 @@
         <name>SysAdmin</name>
     </assembly>
     <members>
-        <member name="M:SysAdmin.rms_var.InitialApp">
-            '''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
-        </member>
         <member name="M:SysAdmin.frmEditAccess.UpdateLogAccess(System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean)">
             ''
+        </member>
+        <member name="M:SysAdmin.rms_var.InitialApp">
+            '''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
         </member>
     </members>
 </doc>

@@ -16,3 +16,12 @@ D:\Project\Caesar_System\RMS\trunk\RMSCS\AppExt\obj\Release\AppExt.TouchLogForm.
 D:\Project\Caesar_System\RMS\trunk\RMSCS\AppExt\obj\Release\AppExt.dll
 D:\Project\Caesar_System\RMS\trunk\RMSCS\AppExt\obj\Release\AppExt.csprojResolveAssemblyReference.cache
 D:\Project\Caesar_System\RMS\trunk\RMSCS\AppExt\obj\Release\AppExt.csproj.GenerateResource.Cache
+D:\Project\RMS\trunk\Release\AppExt.dll
+D:\Project\RMS\trunk\Release\AppExt.xml
+D:\Project\RMS\trunk\AppExt\obj\Release\AppExt.csprojResolveAssemblyReference.cache
+D:\Project\RMS\trunk\AppExt\obj\Release\AppExt.frmAbout.resources
+D:\Project\RMS\trunk\AppExt\obj\Release\AppExt.LogForm.resources
+D:\Project\RMS\trunk\AppExt\obj\Release\AppExt.Properties.Resources.resources
+D:\Project\RMS\trunk\AppExt\obj\Release\AppExt.TouchLogForm.resources
+D:\Project\RMS\trunk\AppExt\obj\Release\AppExt.csproj.GenerateResource.Cache
+D:\Project\RMS\trunk\AppExt\obj\Release\AppExt.dll

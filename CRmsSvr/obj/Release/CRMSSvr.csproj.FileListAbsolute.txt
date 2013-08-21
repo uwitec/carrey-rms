@@ -4,3 +4,7 @@ D:\Project\Caesar_System\RMS\trunk\RMSCS\CRmsSvr\obj\Release\CRmsSvr.dll
 D:\Project\Caesar_System\RMS\trunk\Bin\CRmsSvr.dll
 D:\Project\Caesar_System\RMS\trunk\Bin\CRmsSvr.xml
 D:\Project\Caesar_System\RMS\trunk\RMSCS\CRmsSvr\obj\Release\CRMSSvr.csprojResolveAssemblyReference.cache
+D:\Project\RMS\trunk\Release\CRmsSvr.dll
+D:\Project\RMS\trunk\Release\CRmsSvr.xml
+D:\Project\RMS\trunk\CRmsSvr\obj\Release\CRMSSvr.csprojResolveAssemblyReference.cache
+D:\Project\RMS\trunk\CRmsSvr\obj\Release\CRmsSvr.dll

@@ -149,6 +149,12 @@
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Authorize.cs" />
+    <Compile Include="frmChangeTableStatus.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmChangeTableStatus.Designer.cs">
+      <DependentUpon>frmChangeTableStatus.cs</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -359,6 +365,9 @@
       <DependentUpon>frmCancelRsn.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmChangeTableStatus.resx">
+      <DependentUpon>frmChangeTableStatus.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmCustomer.resx">
       <DependentUpon>frmCustomer.cs</DependentUpon>
       <SubType>Designer</SubType>
@@ -474,6 +483,11 @@
     <Content Include="ds_SaleBillsFoods.xsd">
       <SubType>Designer</SubType>
     </Content>
+    <None Include="Resources\50.png" />
+    <None Include="Resources\54.png" />
+    <None Include="Resources\12.png" />
+    <None Include="Resources\38.png" />
+    <None Include="Resources\49.png" />
     <Content Include="Wine1.ico" />
     <None Include="app.config" />
     <None Include="ds_Balance.xsc">
