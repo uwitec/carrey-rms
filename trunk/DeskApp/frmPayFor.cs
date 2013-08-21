@@ -674,7 +674,7 @@ namespace DeskApp
             this.Label23.BackColor = System.Drawing.SystemColors.Info;
             this.Label23.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.Label23.ForeColor = System.Drawing.Color.Red;
-            this.Label23.Location = new System.Drawing.Point(208, 368);
+            this.Label23.Location = new System.Drawing.Point(209, 368);
             this.Label23.Name = "Label23";
             this.Label23.Size = new System.Drawing.Size(160, 17);
             this.Label23.TabIndex = 6;

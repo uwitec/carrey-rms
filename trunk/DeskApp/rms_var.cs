@@ -1112,7 +1112,35 @@ namespace DeskApp
 			
 			return false;
 		}
-		
+
+        //变更桌台状态
+        public static bool ChangeTableStatus(string tableno, int status)
+        {
+            System.Data.SqlClient.SqlConnection conn = new System.Data.SqlClient.SqlConnection();
+            conn.ConnectionString = ConnStr;
+            try
+            {
+                conn.Open();
+                SqlCommand SQLCMD = new SqlCommand();
+                SQLCMD.Connection = conn;
+                SQLCMD.CommandTimeout = 30;
+                SQLCMD.CommandText = "Update tablestatus set status ="+status.ToString()+"  where tableno ='" + tableno + "'";
+                SQLCMD.ExecuteNonQuery();
+
+                return true;
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.ToString());
+            }
+            finally
+            {
+                conn.Close();
+            }
+
+            return false;
+        }
+
 		//检测当前桌台是否存在消费单据
 		public static bool TableConsumeBillExists(string tableno)
 		{
@@ -1243,7 +1271,8 @@ namespace DeskApp
             int ret=0;
 			try
 			{
-				SqlCommand selectCMD1 = new SqlCommand("SELECT PeopleNumber FROM TableStatus where tableno='" + tableno + "'", conn1);
+                //SqlCommand selectCMD1 = new SqlCommand("SELECT peoplenumber FROM tablestatus where tableno='" + tableno + "'", conn1);
+                SqlCommand selectCMD1 = new SqlCommand("SELECT OpenPsn FROM BalanceTable_t where tableno='" + tableno + "'", conn1);
 				selectCMD1.CommandTimeout = 30;
 				SqlDataAdapter dbDA1 = new SqlDataAdapter();
 				dbDA1.SelectCommand = selectCMD1;
@@ -1255,7 +1284,7 @@ namespace DeskApp
 			}
 			catch (Exception ex)
 			{
-				MessageBox.Show(ex.ToString());
+                //MessageBox.Show(ex.ToString());
 			}
 			finally
 			{

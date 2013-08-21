@@ -1343,6 +1343,11 @@ namespace DeskApp
 				{
 					MessageBox.Show("开台已成功但加单失败（存在同号单据），请手动执行加单操作。");
 				}
+                //这里添加桌台的其他信息
+
+
+
+                //End
 				return true;
 			}
 			else
@@ -2544,6 +2549,11 @@ namespace DeskApp
 					}
 					break;
 				case 20:
+                    try
+                    {
+                        rms_var.frmTableST.RefreshTable();
+                    }
+                    catch { }
 					this.Close();
 					break;
 			}

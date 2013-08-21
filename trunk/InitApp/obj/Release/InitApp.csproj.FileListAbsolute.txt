@@ -8,3 +8,11 @@ D:\Project\Caesar_System\RMS\trunk\Bin\InitApp.exe.config
 D:\Project\Caesar_System\RMS\trunk\Bin\InitApp.exe
 D:\Project\Caesar_System\RMS\trunk\Bin\InitApp.xml
 D:\Project\Caesar_System\RMS\trunk\RMSCS\InitApp\obj\Release\InitApp.csproj.GenerateResource.Cache
+D:\Project\RMS\trunk\Release\InitApp.exe.config
+D:\Project\RMS\trunk\Release\InitApp.exe
+D:\Project\RMS\trunk\Release\InitApp.xml
+D:\Project\RMS\trunk\InitApp\obj\Release\InitApp.csprojResolveAssemblyReference.cache
+D:\Project\RMS\trunk\InitApp\obj\Release\InitApp.csproj.ResolveComReference.cache
+D:\Project\RMS\trunk\InitApp\obj\Release\InitApp.Form1.resources
+D:\Project\RMS\trunk\InitApp\obj\Release\InitApp.csproj.GenerateResource.Cache
+D:\Project\RMS\trunk\InitApp\obj\Release\InitApp.exe

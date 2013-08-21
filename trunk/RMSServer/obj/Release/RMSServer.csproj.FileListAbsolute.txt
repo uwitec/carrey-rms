@@ -8,3 +8,11 @@ D:\Project\Caesar_System\RMS\trunk\Bin\RMSServer.exe.config
 D:\Project\Caesar_System\RMS\trunk\Bin\RMSServer.exe
 D:\Project\Caesar_System\RMS\trunk\Bin\RMSServer.xml
 D:\Project\Caesar_System\RMS\trunk\RMSCS\RMSServer\obj\Release\RMSServer.csproj.GenerateResource.Cache
+D:\Project\RMS\trunk\Release\RMSServer.exe.config
+D:\Project\RMS\trunk\Release\RMSServer.exe
+D:\Project\RMS\trunk\Release\RMSServer.xml
+D:\Project\RMS\trunk\RMSServer\obj\Release\RMSServer.csprojResolveAssemblyReference.cache
+D:\Project\RMS\trunk\RMSServer\obj\Release\RMSServer.frmMain.resources
+D:\Project\RMS\trunk\RMSServer\obj\Release\RMSServer.csproj.GenerateResource.Cache
+D:\Project\RMS\trunk\RMSServer\obj\Release\RMSServer.exe.licenses
+D:\Project\RMS\trunk\RMSServer\obj\Release\RMSServer.exe

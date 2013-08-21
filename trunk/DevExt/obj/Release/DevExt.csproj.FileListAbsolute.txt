@@ -7,3 +7,9 @@ D:\Project\Caesar_System\RMS\trunk\Bin\DevExt.dll.config
 D:\Project\Caesar_System\RMS\trunk\Bin\DevExt.dll
 D:\Project\Caesar_System\RMS\trunk\Bin\DevExt.pdb
 D:\Project\Caesar_System\RMS\trunk\RMSCS\DevExt\obj\Release\DevExt.csprojResolveAssemblyReference.cache
+D:\Project\RMS\trunk\DevExt\bin\Release\DevExt.dll.config
+D:\Project\RMS\trunk\DevExt\bin\Release\DevExt.dll
+D:\Project\RMS\trunk\DevExt\bin\Release\DevExt.pdb
+D:\Project\RMS\trunk\DevExt\obj\Release\DevExt.csprojResolveAssemblyReference.cache
+D:\Project\RMS\trunk\DevExt\obj\Release\DevExt.dll
+D:\Project\RMS\trunk\DevExt\obj\Release\DevExt.pdb

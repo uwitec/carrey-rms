@@ -40,6 +40,31 @@
               重写当前线程的 CurrentUICulture 属性。
             </summary>
         </member>
+        <member name="P:DeskApp.Properties.Resources._12">
+            <summary>
+              查找 System.Drawing.Bitmap 类型的本地化资源。
+            </summary>
+        </member>
+        <member name="P:DeskApp.Properties.Resources._38">
+            <summary>
+              查找 System.Drawing.Bitmap 类型的本地化资源。
+            </summary>
+        </member>
+        <member name="P:DeskApp.Properties.Resources._49">
+            <summary>
+              查找 System.Drawing.Bitmap 类型的本地化资源。
+            </summary>
+        </member>
+        <member name="P:DeskApp.Properties.Resources._50">
+            <summary>
+              查找 System.Drawing.Bitmap 类型的本地化资源。
+            </summary>
+        </member>
+        <member name="P:DeskApp.Properties.Resources._54">
+            <summary>
+              查找 System.Drawing.Bitmap 类型的本地化资源。
+            </summary>
+        </member>
         <member name="T:DeskApp.ds_BalanceType">
              <summary>
             Represents a strongly typed in-memory cache of data.
@@ -58,6 +83,23 @@
         <member name="T:DeskApp.ds_BalanceType.view_BalanceTypeRowChangeEvent">
              <summary>
             Row event argument class
+            </summary>
+        </member>
+        <member name="F:DeskApp.frmChangeTableStatus.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:DeskApp.frmChangeTableStatus.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:DeskApp.frmChangeTableStatus.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
             </summary>
         </member>
     </members>
